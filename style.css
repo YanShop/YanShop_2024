@@ -1,0 +1,177 @@
+*{
+    scroll-behavior: smooth;
+    text-decoration: none;
+}
+
+/* Reset default margin and padding */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: rgb(133, 132, 132)fff;
+    background-color: #8d8585;
+}
+
+/* Container for centering content */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 80px;
+}
+section{
+    min-height: 80vh;
+}
+/* Header styling */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 9%;
+    background-color: #eee;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 90%;
+    z-index: 1000; /* memastikan header berada di atas elemen lainnya */
+}
+
+.header .logo{
+    display: flex;
+    align-items: center;
+}
+
+.header .logo img{
+    width: 70px;
+    height: 70px;
+    margin: 10px;
+}
+
+.header .logo a{
+    font-size: 1rem;
+    font-weight: 600;
+    color: #000;
+}
+
+.header .navbar a{
+    margin-right: 50px;
+    color: #000;
+}
+
+
+
+/* Hero section styling */
+#hero {
+    background-image: url(assets/DSF1807-1024x683.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+#hero h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+    background: rgb(71, 70, 70)fff;
+    color: #fff;
+    padding: 50px 0;
+}
+
+#hero p {
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: #fff;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Products section styling */
+#products {
+    padding: 20px 0;
+}
+
+.product h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.product-grid {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.product{
+    background: #ece7e7;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    width: 30%;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 10px;
+}
+
+.product h3 {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.product p {
+    margin-bottom: 10px;
+}
+
+/* Footer styling */
+footer {
+    background: #fffdfd;
+    color: #e2c8c8;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 5px;
+}
+#about-us{
+    background-color: #ffffff;
+    padding: 2rem 9%;
+}
+#about-us{
+    text-align: center;
+}
+.content-about{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+}
+.media-social{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5rem 9%;
+}
+.media-social img{
+    width: 70px;
+    height: 70px;
+}
